@@ -1,0 +1,51 @@
+body {
+    background:rgba(238, 229, 246, 0.445);
+}
+/* LOGIN PAGE */
+.login-wrapper {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.main-wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 10px;
+}
+.login-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0 5px;
+}
+.control {
+    border: none;
+    box-shadow: 0.1px 0 1px 0.5px rgba(173, 173, 223, 0.404);
+    height: 7vh;
+    border-radius: 0;
+}
+
+.login-wrapper > form > input[type=text]{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.login-wrapper > form > input[type=password]{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -1;
+}
+h4{
+    color: rgba(173, 173, 223, 0.404);
+}
+h1 {
+    padding: 10px;
+}
+/* FOOTER */
+.footer {
+    text-align: center;
+}
